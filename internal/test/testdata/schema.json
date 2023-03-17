@@ -1,0 +1,94 @@
+{
+  "fields": [
+    {
+      "children": null,
+      "name": "id",
+      "nullable": false,
+      "secondary": false,
+      "type": "INT64"
+    },
+    {
+      "children": null,
+      "name": "field1",
+      "nullable": false,
+      "secondary": false,
+      "type": "INT8"
+    },
+    {
+      "children": null,
+      "name": "field2",
+      "nullable": false,
+      "secondary": false,
+      "type": "FLT64"
+    },
+    {
+      "children": [
+        {
+          "children": null,
+          "name": "field1",
+          "nullable": false,
+          "secondary": false,
+          "type": "INT8"
+        },
+        {
+          "name": "field2",
+          "nullable": false,
+          "secondary": false,
+          "type": "FLT64"
+        },
+        {
+          "name": "field3",
+          "type": "TEXT"
+        }
+      ],
+      "name": "field3",
+      "nullable": false,
+      "secondary": false,
+      "type": "SOO"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": null,
+              "name": "field1",
+              "nullable": false,
+              "secondary": false,
+              "type": "INT8"
+            },
+            {
+              "children": null,
+              "name": "field2",
+              "nullable": false,
+              "secondary": false,
+              "type": "FLT64"
+            },
+            {
+              "name": "field3",
+              "type": "TEXT"
+            }
+          ],
+          "name": "",
+          "nullable": false,
+          "secondary": false,
+          "type": "SOO"
+        }
+      ],
+      "name": "field4",
+      "nullable": false,
+      "secondary": false,
+      "type": "SOA"
+    },
+    {
+      "children": [
+        {
+          "name": "field3",
+          "type": "TEXT"
+        }
+      ],
+      "name": "field5",
+      "type": "SOA"
+    }
+  ]
+}
